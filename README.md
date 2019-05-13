@@ -1,6 +1,6 @@
 # auto-XML-reader-and-SQL-generator
 
-This code is write in python 2.7 and urllib2 used depends on the version
+This code is written in python 2.7 and urllib2 used depends on the version
 
 The purpose of this code is for interviewing.
 So there is no exceptional handler and no pattern check for inputs.
