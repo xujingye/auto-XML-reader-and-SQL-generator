@@ -8,4 +8,4 @@ So there is no exceptional handler and no pattern check for inputs.
 Also if you try to input url, sometimes you may input '{some url}' instead of {some url}
 Eg: using 'https://uwaterloo.ca/' instead of https://uwaterloo.ca/
 This problem is likely from my configuration in Pycharm on MAC.
-The "response = urllib2.urlopen(url)" works a little bit differently
+
