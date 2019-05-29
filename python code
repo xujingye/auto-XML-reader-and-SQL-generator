@@ -52,12 +52,11 @@ def fectchElementByTag(data, tag, attributes):
 
 
 def sqlGenerator(infoArray, template, header=""):
-    print("dont forget to make it works for file")
     # print(infoArray)
     testTemple = "({@0},{@1})"
     result = header + "\n"
     for unit in infoArray:
-        temp = testTemple
+        temp = template
         # print(unit)
         length = len(unit)
         for index in range(length):
